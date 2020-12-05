@@ -1,0 +1,44 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+
+		.cajaImagen {
+			margin: 100px auto 0 auto;
+			width: 80%;
+		}	
+
+		ul {
+			display: flex;
+			list-style: none;
+			margin: auto;
+		}
+
+		li{
+			margin: auto;
+		}
+
+		a {			
+			background-image: url(img/toucan1.jpg);
+			display: block;
+			height: 63px;
+			margin-bottom: 25px;
+			width: 200px;
+		}
+
+		a:hover {
+			background-image: url(img/toucan2.jpg);
+		}
+
+		a:active {
+			background-image: url(img/toucan3.jpg);
+		}
+
+		h1{
+			border-bottom: 1px solid lightgreen;
+			color: lightgreen;
+			font-family: 'Monoton', cursive;
+			font-size: 60px;
+			margin-bottom: 25px;
+			text-align: center;
+		}
